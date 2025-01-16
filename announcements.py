@@ -32,7 +32,7 @@ def get_last_tag() -> str | None:
     return data
 
 
-REQUESTS_DELAY = 600
+REQUESTS_DELAY = 60
 LAST_TAG = get_last_tag()
 
 
